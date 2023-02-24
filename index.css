@@ -186,6 +186,7 @@ ul li a {
     width: 95%;
     height: 450px;
     float: center;
+    padding: 10px;
     /*Gap setting and centered picture*/
 }
 
