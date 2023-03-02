@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "simple_thread";
+    src: url(Simplethread.otf);
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 0px;
+
+    /* Needs to make alternative home button */
+    /*Ref to url */
+}
+
+.username {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(158, 116, 60);
+    margin-bottom: .5px;
+    /*Demo subtitle */
+}
+
+.socialdes {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(158, 116, 60);
+    margin-top: 0px;
+}
+
+.name {
+    font-family: "simple_thread", sans-serif;
+    text-align: center;
+    color: rgb(180, 35, 35);
+    font-size: 50px;
+    background: white;
+    font-weight: 800;
+    margin-bottom: 0px;
+    /*Needs to be in the center after screen expand */
+}
+
+.Description {
+    text-align: center;
+    color: rgb(193, 92, 92);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    text-align: right;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+ul li a :hover {
+    background: rgb(6, 108, 209);
+}
+
+.navigation {
+    background: dodgerblue;
+    display: block;
+}
+
+.navigation button {
+    font-weight: 600;
+    border: 0;
+    text-transform: uppercase;
+}
+
+.navigation button :hover {
+    background-color: rgb(6, 108, 209);
+}
+
+.navigation a {
+    background-color: dodgerblue;
+    padding: 1rem 1rem;
+    font-size: 16px;
+    margin: auto;
+}

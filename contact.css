@@ -1,206 +1,85 @@
-@font-face {
-    font-family: "simple_thread";
-    src: url(Simplethread.otf);
-}
-
-.logo {
-    width: 120px;
-    height: 120px;
-    float: left;
-    margin-top: 0px;
-
-    /* Needs to make alternative home button */
-    /*Ref to url */
-}
-
-.username {
-    font-style: italic;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    color: rgb(158, 116, 60);
-    margin-bottom: .5px;
-    /*Demo subtitle */
-}
-
-
-.socialdes {
-    text-align: center;
-    font-size: 18px;
-    color: rgb(158, 116, 60);
-    margin-top: 0px;
-}
-
-.name {
-    font-family: "simple_thread", sans-serif;
-    text-align: center;
-    color: rgb(180, 35, 35);
-    font-size: 50px;
-    background: white;
-    font-weight: 800;
-    margin-bottom: 0px;
-    /*Needs to be in the center after screen expand */
-}
-
-body {
-    background: rgb(255, 255, 255);
-}
-
-.Description {
-    text-align: center;
-    color: rgb(193, 92, 92);
-    font-size: 20px;
-    font-weight: 600;
-    margin-top: 0px;
-}
-
-.buttondiv {
-    display: block;
-    text-align: right;
-    background: dodgerblue;
-    /*Needs work on borders */
-    /*Create url and next page*/
-
-}
-
-.home {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1rem 1rem;
-    text-transform: uppercase;
-    border: 0;
-    /*BORDER change for all other button*/
-}
-
-.home--secondary {
-    background: dodgerblue;
-    color: white;
-}
-
-.home--secondary:hover {
-    background: rgb(6, 108, 209);
-}
-
-.schedule {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1rem 1rem;
-    text-transform: uppercase;
-    border: 0;
-    /*Set url, next page*/
-}
-
-.schedule--secondary {
-    background: dodgerblue;
-    color: white;
-}
-
-.schedule--secondary:hover {
-    background: rgb(6, 108, 209);
-}
-
-.direction {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1em 1rem;
-    text-transform: uppercase;
-    border: 0;
-    /*Border work and url*/
-}
-
-.direction--secondary {
-    background: dodgerblue;
-    color: white;
-}
-
-.direction--secondary:hover {
-    background: rgb(6, 108, 209);
-}
-
-.contact {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1rem 1rem;
-    text-transform: uppercase;
-    border: 0;
-    /*Url and next page*/
-    /*Border work*/
-}
-
-.contact--secondary {
-    background: dodgerblue;
-    color: white;
-}
-
-.contact--secondary:hover {
-    background: rgb(6, 108, 209);
-}
-
-.codeconduct {
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 1rem 1rem;
-    text-transform: uppercase;
-    border: 0;
-}
-
-.codeconduct--secondary {
-    background: dodgerblue;
-    color: white;
-}
-
-.codeconduct--secondary:hover {
-    background: rgb(6, 108, 209);
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-nav {}
-
-ul {}
-
-ul li {
-    list-style: none;
-    display: inline-block;
-
-}
-
-ul li a {
-    display: block;
-    text-decoration: none;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-}
-
 .contactInfo {
     padding: 20px;
     font-size: 20px;
 }
 
 .contactInfoName {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "simple_thread", sans-serif;
     color: rgb(190, 10, 10);
 }
 
-.InfoName {
-    font-size: 30px;
-    color: rgb(165, 162, 162);
-    background: rgb(85, 85, 78);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+.contactdes {
+    font-size: 16px;
+    padding: 10px;
 }
 
-.ForBack {
-    background: rgb(85, 85, 78);
+.requestform {
+    font-size: 20px;
+    padding-left: 15px;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
+.infoform :where(.name input, .select-box) {
+    position: relative;
+    height: 20px;
+    width: 90%;
+    outline: none;
+    font-size: 18px;
+    color: #353434;
+    margin-top: 8px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+::placeholder {
+    color: #514f4f;
+}
+
+.infoform .column2 {
+    display: flex;
+    column-gap: 55px;
+}
+
+.column2 {
+    padding: 10px;
+    margin: 5;
+}
+
+.name input {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: left;
+}
+
+.gender {
+    padding-top: 35px;
+    justify-content: left;
+    font-size: 16px;
+}
+
+.phone input {
+    padding: 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.state {
+    font-size: 14px;
+    height: 39px;
+    width: 30%;
+    margin-top: 28px;
+}
+
+.input [type=text],
+textarea {
+    width: 95%;
+    text-align: left;
+    height: 200px;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 12px;
+    padding: 10px;
+    border-radius: 5px;
 }

@@ -1,0 +1,25 @@
+.InfoName {
+    font-size: 30px;
+    color: rgb(165, 162, 162);
+    background: rgb(85, 85, 78);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ForBack {
+    background: rgb(85, 85, 78);
+}
+
+.socialmedia {
+    filter: drop-shadow(2px 0px 2px #ffffff);
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a {
+    color: blue;
+}

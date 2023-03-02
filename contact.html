@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6f0e8eb73f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Contact</title>
     <style>
 
@@ -13,54 +16,167 @@
 </head>
 
 <body>
-    <img class="logo" src="IMG_0564.PNG" alt="logo">
+
+    <li><a href="index.html"><img class="logo" src="IMG_0564.PNG" alt="logo"></a></li>
 
     <p class="name">Sports Arena</p>
     <p class="Description">You develop your skills as you beat hours and hours of practice</p>
 
     <p class="username">@reznabid</p>
     <p class="socialdes">Follow us on our social media</p>
-
-    <div class="buttondiv"> <!--Buttons with class. Read all lines to find classes-->
-        <nav>
-            <ul>
-                <button class="home home--secondary">
-                    <li><a href="index.html">Home</a></li>
-                </button>
-                <button class="schedule schedule--secondary">
-                    <li><a href="schedule.html">Schedules</a></li>
-                </button>
-                <button class="direction direction--secondary">
-                    <li><a href="direction.html">Direction</a></li>
-                </button>
-                <button class="codeconduct codeconduct--secondary">
-                    <li><a href="codeconduct.html">Code of Conduct</a></li>
-                </button>
-                <button class="contact contact--secondary">
-                    <li><a href="contact.html">Contact</a></li>
-                </button>
-            </ul>
-        </nav>
-    </div>
+    <header>
+        <div class="buttondiv"> <!--Buttons with class. Read all lines to find classes-->
+            <nav class="navigation">
+                <ul>
+                    <button class="button--secondary">
+                        <li><a href="index.html">Home</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="schedule.html">Schedules</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="direction.html">Direction</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="codeconduct.html">Code of Conduct</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="contact.html">Contact</a></li>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </header>
     <center class="contactInfo">
         <p class="contactInfoName">Sports<br>Arena</p>
         <p class="InfoAddress">1234 Somewhere av, SomeCity 45678</p>
         <p class="phone">(313) - 456 - 4567</p>
     </center>
-    <p>For general inquiries about any of our programs, sports leagues, please
+    <p class="contactdes">For general inquiries about any of our programs, sports leagues, please
         call us or complete the information request form below. One of our team
         will get back to you shortly.
     </p>
     <br>
-    <p>Information request form</p>
+    <p class="requestform">Information request form</p>
+
+    <form action="" class="infoform">
+        <fieldset>
+            <div class="column2">
+                <div class="name">
+                    <input type="text" name="firstname" placeholder="First name">
+                </div>
+                <div class="name">
+                    <input type="text" name="middlename" placeholder="Middle name">
+                </div>
+                <div class="name">
+                    <input type="text" name="lastname" placeholder="Last name">
+                </div>
+            </div>
+            <div class="column2">
+                <div class="gender">
+                    <h>Gender: </h>
+                    Male <input type="radio" name="gender" value="Male">
+                    Female <input type="radio" name="gender" value="Female">
+                    Other <input type="radio" name="gender" value="Other">
+                </div>
+                <div class="name">
+                    <input type="number" name="phone" placeholder="Phone Number">
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="name">
+                    <input type="text" name="address" placeholder="Street address">
+                </div>
+                <div class="name">
+                    <input type="text" name="city" placeholder="City">
+                </div>
+
+                <select name="State" class="state">
+                    <option hidden>State</option>
+                    <option value="Alabama">Alabama</option>
+                    <option value="Alaska">Alaska</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Arkansas">Arkansas</option>
+                    <option value="California">California</option>
+                    <option value="Colorado">Colorado</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Delaware">Delaware</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Hawaii">Hawaii</option>
+                    <option value="Idaho">Idaho</option>
+                    <option value="Illinois">Illinois</option>
+                    <option value="Indiana">Indiana</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Kansas">Kansas</option>
+                    <option value="Kentucky">Kentucky</option>
+                    <option value="Louisiana">Louisiana</option>
+                    <option value="Maine">Maine</option>
+                    <option value="Maryland">Maryland</option>
+                    <option value="Massachusetts">Massachusetts</option>
+                    <option value="Michigan">Michigan</option>
+                    <option value="Minnesota">Minnesota</option>
+                    <option value="Mississippi">Mississippi</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Montana">Montana</option>
+                    <option value="Nebraska">Nebraska</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="New Hampshire">New Hampshire</option>
+                    <option value="New Jersey">New Jersey</option>
+                    <option value="New Mexico">New Mexico</option>
+                    <option value="New York">New York</option>
+                    <option value="North Carolina">North Carolina</option>
+                    <option value="North Dakota">North Dakota</option>
+                    <option value="Ohio">Ohio</option>
+                    <option value="Oklahoma">Oklahoma</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Pennsylvania">Pennsylvania</option>
+                    <option value="Rhode Island">Rhode Island</option>
+                    <option value="South Carolina">South Carolina</option>
+                    <option value="South Dakota">South Dakota</option>
+                    <option value="Tennessee">Tennessee</option>
+                    <option value="Texas">Texas</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Vermont">Vermont</option>
+                    <option value="Virginia">Virginia</option>
+                    <option value="Washington">Washington</option>
+                    <option value="West Virginia">West Virginia</option>
+                    <option value="Wisconsin">Wisconsin</option>
+                    <option value="Wyoming">Wyoming</option>
+                </select>
+
+            </div>
+            <div class="column2">
+                <div class="name">
+                    <input type="text" name="email" placeholder="Enter email">
+                </div>
+            </div>
+            <textarea name="" placeholder="Type the information you would like to know." id="massage" cols="20" rows="5"
+                maxlength="500"></textarea>
+    </form>
+    </fieldset>
+
+    <br>
+    <br>
+
 
     <footer>
         <center class="ForBack">
             <p class="InfoName">Sports<br>Arena</p>
-            <p class="InfoAdd">1234 Somewhere av, SomeCity 45678</p>
             <p class="rights">@All rights are reserved. Terms of use | Privacy Policy.</p>
+
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/rez___nabid/" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100029058875993" target="_blank"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/rezaul-islam-23118b255/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
         </center>
     </footer>
+
 </body>
 
 </html>

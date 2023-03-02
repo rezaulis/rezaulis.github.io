@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="codeconduct.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="footer.css">
     <title>Code of Conduct</title>
     <style>
 
@@ -13,37 +15,43 @@
 </head>
 
 <body>
-    <img class="logo" src="IMG_0564.PNG" alt="logo">
-
+    <li><a href="index.html"><img class="logo" src="IMG_0564.PNG" alt="logo"></a></li>
     <p class="name">Sports Arena</p>
     <p class="Description">You develop your skills as you beat hours and hours of practice</p>
 
     <p class="username">@reznabid</p>
     <p class="socialdes">Follow us on our social media</p>
 
-    <div class="buttondiv"> <!--Buttons with class. Read all lines to find classes-->
-        <nav>
-            <ul>
-                <button class="home home--secondary">
-                    <li><a href="index.html">Home</a></li>
-                </button>
-                <button class="schedule schedule--secondary">
-                    <li><a href="schedule.html">Schedules</a></li>
-                </button>
-                <button class="direction direction--secondary">
-                    <li><a href="direction.html">Direction</a></li>
-                </button>
-                <button class="codeconduct codeconduct--secondary">
-                    <li><a href="codeconduct.html">Code of Conduct</a></li>
-                </button>
-                <button class="contact contact--secondary">
-                    <li><a href="contact.html">Contact</a></li>
-                </button>
-            </ul>
-        </nav>
-    </div>
+    <header>
+        <div class="buttondiv"> <!--Buttons with class. Read all lines to find classes-->
+            <nav class="navigation">
+                <ul>
+                    <button class="button--secondary">
+                        <li><a href="index.html">Home</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="schedule.html">Schedules</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="direction.html">Direction</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="codeconduct.html">Code of Conduct</a></li>
+                    </button>
+                    <button class="button--secondary">
+                        <li><a href="contact.html">Contact</a></li>
+                    </button>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <p class="policyStart">Sports Arena has adopted a code of Conduct Policy.</p>
+
+    <video class="video" autoplay loop src="codeconductvideo.mp4">
+        <source src="codeconductvideo.webM">
+        This browser does not support HTML5 audios.
+    </video>
 
     <p class="firstPara">For any activity or event at Sports Arena, it is everyone's responsibility
         to maintain the highest standards of conduct of themselves. Failure to so
@@ -58,6 +66,21 @@
         during and after the event - inside or outside of the facility.
     </p>
 
+    <footer>
+        <center class="ForBack">
+            <p class="InfoName">Sports<br>Arena</p>
+            <p class="rights">@All rights are reserved. Terms of use | Privacy Policy.</p>
+
+            <div class="socialmedia">
+                <a href="https://www.instagram.com/rez___nabid/" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100029058875993" target="_blank"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/rezaul-islam-23118b255/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </center>
+    </footer>
 </body>
 
 </html>
