@@ -49,12 +49,10 @@
     margin-top: 0px;
 }
 
-
 * {
     margin: 0;
     padding: 0;
 }
-
 
 ul {
     text-align: right;
@@ -96,4 +94,8 @@ ul li a :hover {
     padding: 1rem 1rem;
     font-size: 16px;
     margin: auto;
+}
+
+body {
+    width: 100%;
 }

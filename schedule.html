@@ -8,14 +8,13 @@
     <link rel="stylesheet" href="schedule.css">
     <link rel="stylesheet" href="navigation.css">
     <link rel="stylesheet" href="footer.css">
+    <script src="https://kit.fontawesome.com/6f0e8eb73f.js" crossorigin="anonymous"></script>
     <title>Schedule & Standing</title>
-    <style>
 
-    </style>
 </head>
 
 <body>
-    <li><a href="index.html"><img class="logo" src="IMG_0564.PNG" alt="logo"></a></li>
+    <a href="index.html"><img class="logo" src="IMG_0564.PNG" alt="logo"></a>
 
     <p class="name">Sports Arena</p>
     <p class="Description">You develop your skills as you beat hours and hours of practice</p>
@@ -23,7 +22,7 @@
     <p class="username">@reznabid</p>
     <p class="socialdes">Follow us on our social media</p>
 
-
+    <!-- Start of butto html.-->
     <header>
         <div class="buttondiv"> <!--Buttons with class. Read all lines to find classes-->
             <nav class="navigation">
@@ -47,11 +46,7 @@
             </nav>
         </div>
     </header>
-
-    <p class="firstPara">
-        Easy way to book your game time. Check the available time and book for
-        your favorite game.
-    </p>
+    <p class="time">Hours</p>
     <div class="bottom">
         <table class="table">
             <tr class="firstRaw">
@@ -74,10 +69,69 @@
             </tr>
         </table>
     </div>
+
+    <p class="firstPara">
+        Easy way to book your game time. Check the available time and book for
+        your favorite game.
+    </p>
+
+    <form action="" class="booking">
+        <fieldset>
+            <div class="column">
+                <div class="formname">
+                    First name: <input type="text" name="firstname" placeholder="">
+                </div>
+                <div class="formname">
+                    Last name: <input type="text" name="lastname" placeholder="">
+                </div>
+                <div class="formname">
+                    Email: <input type="text" name="email" placeholder="">
+                </div>
+            </div>
+            <div class="column">
+                <div class="formname">
+                    <form action="post" class="dates">
+                        Date of booking: <input type="date" name="date" value="">
+                    </form>
+                </div>
+            </div>
+            <div class="column">
+                <div class="formname">
+                    Enter time to start <input type="text" name="hours" placeholder="">
+                </div>
+                <div class="formname">
+                    Enter time to finish <input type="text" name="hours" placeholder="">
+                </div>
+            </div>
+            <div class="column">
+                <div class="formname">
+                    Type of field: <select name="field" class="field">
+                        <option hidden>Select</option>
+                        <option value="">Soccer</option>
+                        <option value="">Football</option>
+                        <option value="">Bedminton</option>
+                        <option value="">Hockey</option>
+                    </select>
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+    <!-- Footer starts here.-->
     <footer>
         <center class="ForBack">
             <p class="InfoName">Sports<br>Arena</p>
             <p class="rights">@All rights are reserved. Terms of use | Privacy Policy.</p>
+
+            <div class="socialmedia">
+                <!-- Social media -->
+                <a href="https://www.instagram.com/rez___nabid/" target="_blank"><i
+                        class="fa-brands fa-square-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100029058875993" target="_blank"><i
+                        class="fa-brands fa-square-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/rezaul-islam-23118b255/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
         </center>
     </footer>
 

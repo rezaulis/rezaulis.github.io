@@ -1,19 +1,44 @@
 /*writing designs*/
-.policyStart {
-    font-size: 18px;
+.allconduct {
+    width: 90%;
+    padding: 0px 20px 0px 20px;
+}
+
+.policyheading {
+    font-size: 24px;
     padding: 15px;
+    text-transform: uppercase;
 }
 
-.firstPara {
-    padding-left: 12px;
+.Paragraph {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
+    float: center;
 }
 
-.secondPara {
-    padding-left: 12px;
-}
+/* Background video CSS */
 
-.video {
-    height: 300px;
+.container {
     padding: 10px;
+}
+
+.image {
+    width: 95%;
+    height: 80vh;
+    margin: auto;
+    font-family: 'Shantell Sans', cursive;
+    background-position: center;
+    background-size: cover;
+    background-image: url(codeconductvideo.mp4);
+}
+
+.image_overlay {
     width: 100%;
+    height: 80vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }

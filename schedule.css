@@ -4,8 +4,15 @@
     font-size: 14px;
 }
 
+.time {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+}
+
 .bottom {
-    padding: 20px;
+    padding: 10px;
 }
 
 /*table design*/
@@ -27,4 +34,41 @@
     align-items: center;
     width: 100%;
     font-size: 14px;
+}
+
+.booking :where(.formname input, .select-box) {
+    position: relative;
+    height: 20px;
+    width: 70%;
+    outline: none;
+    font-size: 18px;
+    color: #353434;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    padding: 0 15px;
+}
+
+.column {
+    padding: 10px;
+    margin: 5;
+}
+
+fieldset {
+    margin: 10px;
+}
+
+.formname input {
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+}
+
+.field {
+    font-size: 14px;
+    height: 39px;
+    width: 20%;
+    margin-top: 15px;
+    cursor: pointer;
 }

@@ -1,0 +1,6 @@
+img.wrap {
+    float: left;
+    width: 400px;
+    -webkit-shape-outside: url(pngegg.png);
+    shape-outside: url(pngegg.png);
+}
