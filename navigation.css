@@ -1,6 +1,12 @@
-@font-face {
+/* @font-face {
     font-family: "simple_thread";
     src: url(Simplethread.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .logo {
@@ -9,8 +15,7 @@
     float: left;
     margin-top: 0px;
 
-    /* Needs to make alternative home button */
-    /*Ref to url */
+   
 }
 
 .username {
@@ -20,7 +25,7 @@
     text-align: center;
     color: rgb(158, 116, 60);
     margin-bottom: .5px;
-    /*Demo subtitle */
+    
 }
 
 .socialdes {
@@ -38,7 +43,7 @@
     background: white;
     font-weight: 800;
     margin-bottom: 0px;
-    /*Needs to be in the center after screen expand */
+    
 }
 
 .Description {
@@ -53,6 +58,23 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ul {
     text-align: right;
@@ -77,16 +99,20 @@ ul li a :hover {
 .navigation {
     background: dodgerblue;
     display: block;
+    padding: 5px;
 }
 
 .navigation button {
     font-weight: 600;
-    border: 0;
     text-transform: uppercase;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 .navigation button :hover {
     background-color: rgb(6, 108, 209);
+    border: 0 solid;
+    border-radius: 5px;
 }
 
 .navigation a {
@@ -96,6 +122,155 @@ ul li a :hover {
     margin: auto;
 }
 
-body {
-    width: 100%;
+
+
+@media (max-width: 900px) {
+    .navigation {
+        display: flex;
+        border: 1px solid red;
+        flex-direction: column;
+
+
+    }
+} */
+
+@font-face {
+    font-family: "simple_thread";
+    src: url(Simplethread.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-top: 0px;
+
+
+}
+
+.username {
+    font-style: italic;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(158, 116, 60);
+    margin-bottom: .5px;
+
+}
+
+.socialdes {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(158, 116, 60);
+    margin-top: 0px;
+}
+
+.name {
+    font-family: "simple_thread", sans-serif;
+    text-align: center;
+    color: rgb(180, 35, 35);
+    font-size: 50px;
+    background: white;
+    font-weight: 800;
+    margin-bottom: 0px;
+
+}
+
+.Description {
+    text-align: center;
+    color: rgb(193, 92, 92);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+
+nav {
+    height: 80px;
+    background: dodgerblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px 0px 50px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0.5px;
+}
+
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 8px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+#cl {
+    display: none;
+}
+
+nav .hd i {
+    display: none;
+}
+
+
+.name2 {
+    font-size: 10px;
+    font-family: Futura;
+    color: #FFFFFF;
+    padding: 5px;
+}
+
+@media(max-width: 940px) {
+    nav ul {
+        position: fixed;
+        background: rgb(14, 72, 130);
+        background-size: 20px 20px;
+        display: block;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        text-align: center;
+        top: 80px;
+    }
+
+    #cl:checked~ul {
+        left: 0;
+    }
+
+    hd i {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 40px 0;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        display: block;
+    }
+
+    nav .hd i {
+        color: #FFFFFF;
+        font-size: 22px;
+        cursor: pointer;
+        display: block;
+    }
 }

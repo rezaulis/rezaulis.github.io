@@ -72,3 +72,19 @@ fieldset {
     margin-top: 15px;
     cursor: pointer;
 }
+
+.button {
+    padding: 10px;
+
+}
+
+.submit {
+    padding: 10px;
+    display: block;
+    background: rgb(180, 35, 35);
+    font-weight: 600;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+
+}

@@ -23,8 +23,25 @@
     <p class="socialdes">Follow us on our social media</p>
 
     <!-- Start of butto html.-->
+
     <header>
-        <div class="buttondiv"> <!--Buttons with class. Read all lines to find classes-->
+        <nav>
+            <div class="name2">Sports Arena</div>
+
+            <input type="checkbox" id="cl">
+            <label for="cl" class="hd"> <i class="fas fa-bars"></i></label>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="schedule.html">Schedules</a></li>
+                <li><a href="direction.html">Direction</a></li>
+                <li><a href="codeconduct.html">Code of Conduct</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- <header>
+        <div class="buttondiv"> 
             <nav class="navigation">
                 <ul>
                     <button class="button--secondary">
@@ -45,7 +62,8 @@
                 </ul>
             </nav>
         </div>
-    </header>
+    </header> -->
+
     <p class="time">Hours</p>
     <div class="bottom">
         <table class="table">
@@ -97,10 +115,10 @@
             </div>
             <div class="column">
                 <div class="formname">
-                    Enter time to start <input type="text" name="hours" placeholder="">
+                    Enter time to start: <input type="text" name="hours" placeholder="">
                 </div>
                 <div class="formname">
-                    Enter time to finish <input type="text" name="hours" placeholder="">
+                    Enter time to finish: <input type="text" name="hours" placeholder="">
                 </div>
             </div>
             <div class="column">
@@ -113,6 +131,9 @@
                         <option value="">Hockey</option>
                     </select>
                 </div>
+            </div>
+            <div class="button">
+                <button class="submit">Submit</button>
             </div>
 
         </fieldset>
