@@ -1,0 +1,30 @@
+.title {
+    text-align: center;
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 18px;
+}
+
+.borotable {
+    margin: 10px;
+    border: 2px solid #ddd;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+}
+
+th {
+    background-color: #e31d1ddb;
+}
+
+tr:hover {
+    background-color: #d0cdcd;
+}

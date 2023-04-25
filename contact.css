@@ -14,19 +14,40 @@
     padding: 10px;
 }
 
+.email {
+    margin: 20px;
+    padding: 10px;
+    background: burlywood;
+}
+
+.bitroremail {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.email:hover {
+    background: rgb(169, 130, 79);
+}
+
 .requestform {
     font-size: 20px;
     padding-left: 15px;
 }
 
+.form {
+    margin: 10px;
+}
+
 .infoform :where(.name input, .select-box) {
     position: relative;
-    height: 20px;
+    height: 40px;
     width: 90%;
     outline: none;
-    font-size: 18px;
+    font-size: 20px;
     color: #353434;
-    margin-top: 8px;
+    margin-top: 10px;
     border: 1px solid #000000;
     border-radius: 6px;
     padding: 0 15px;
@@ -90,7 +111,7 @@ textarea {
 }
 
 .button {
-    padding: 10px;
+    padding: 20px;
 }
 
 .submit {
@@ -98,7 +119,7 @@ textarea {
     display: block;
     background: rgb(180, 35, 35);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 18px;
     color: white;
     cursor: pointer;
 }

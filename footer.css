@@ -11,6 +11,11 @@
 
 .socialmedia {
     filter: drop-shadow(2px 0px 2px #ffffff);
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
 }
 
 footer {

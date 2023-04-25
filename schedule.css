@@ -1,7 +1,30 @@
+body {
+    z-index: 0;
+}
+
 .firstPara {
     padding: 10px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
+}
+
+.event {
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+
+}
+
+.eventbtn {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    background: rgb(180, 154, 36);
+}
+
+.eventbtn:hover {
+    background: rgb(107, 88, 3);
+    transition: 0.5s ease;
 }
 
 .time {
@@ -25,7 +48,7 @@
 .firstRaw {
     background-color: grey;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 /*second raw*/
@@ -33,12 +56,12 @@
     background-color: lightgrey;
     align-items: center;
     width: 100%;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .booking :where(.formname input, .select-box) {
     position: relative;
-    height: 20px;
+    height: 40px;
     width: 70%;
     outline: none;
     font-size: 18px;

@@ -1,8 +1,8 @@
 img.wrap {
     float: left;
     width: 400px;
-    -webkit-shape-outside: url(pngegg.png);
-    shape-outside: url(pngegg.png);
+    -webkit-shape-outside: url(football_page.png);
+    shape-outside: url(football_page.png);
 }
 
 .title {

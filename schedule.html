@@ -19,10 +19,10 @@
     <p class="name">Sports Arena</p>
     <p class="Description">You develop your skills as you beat hours and hours of practice</p>
 
-    <p class="username">@reznabid</p>
+    <p class="username">@rez_nabid</p>
     <p class="socialdes">Follow us on our social media</p>
 
-    <!-- Start of butto html.-->
+    <!-- Start of button html.-->
 
     <header>
         <nav>
@@ -40,104 +40,91 @@
         </nav>
     </header>
 
-    <!-- <header>
-        <div class="buttondiv"> 
-            <nav class="navigation">
-                <ul>
-                    <button class="button--secondary">
-                        <li><a href="index.html">Home</a></li>
-                    </button>
-                    <button class="button--secondary">
-                        <li><a href="schedule.html">Schedules</a></li>
-                    </button>
-                    <button class="button--secondary">
-                        <li><a href="direction.html">Direction</a></li>
-                    </button>
-                    <button class="button--secondary">
-                        <li><a href="codeconduct.html">Code of Conduct</a></li>
-                    </button>
-                    <button class="button--secondary">
-                        <li><a href="contact.html">Contact</a></li>
-                    </button>
-                </ul>
-            </nav>
+    <div class="sararesponsive">
+
+        <picture>
+            <p class="para1">Play your favorite game here</p>
+            <center><img class="soccer" src="soccer.jpg" alt="1st_pic">
+            </center>
+
+        </picture>
+        <p class="time">Hours</p>
+        <div class="bottom">
+            <table class="table">
+                <tr class="firstRaw">
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thusrday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr class="secondRaw">
+                    <td>Closed</td>
+                    <td>10AM - 10PM</td>
+                    <td>10AM - 10PM</td>
+                    <td>10AM - 10PM</td>
+                    <td>10AM - 10PM</td>
+                    <td>10AM - 10PM</td>
+                    <td>10AM - 8PM</td>
+                </tr>
+            </table>
         </div>
-    </header> -->
+        <div class="event">
+            <a class="eventbtn" href="events.html">See more events...</a>
+        </div>
+        <p class="firstPara">
+            Easy way to book your game time. Check the available time and book for
+            your favorite game.
+        </p>
 
-    <p class="time">Hours</p>
-    <div class="bottom">
-        <table class="table">
-            <tr class="firstRaw">
-                <th>Sunday</th>
-                <th>Monday</th>
-                <th>Tuesday</th>
-                <th>Wednesday</th>
-                <th>Thusrday</th>
-                <th>Friday</th>
-                <th>Saturday</th>
-            </tr>
-            <tr class="secondRaw">
-                <td>Closed</td>
-                <td>10AM - 10PM</td>
-                <td>10AM - 10PM</td>
-                <td>10AM - 10PM</td>
-                <td>10AM - 10PM</td>
-                <td>10AM - 10PM</td>
-                <td>10AM - 8PM</td>
-            </tr>
-        </table>
+        <form class="booking" action="https://formsubmit.co/rezaulislam141294@gmail.com" method="POST">
+            <fieldset>
+                <div class="column">
+                    <div class="formname">
+                        First name: <input type="text" name="Firstname" placeholder="">
+                    </div>
+                    <div class="formname">
+                        Last name: <input type="text" name="Lastname" placeholder="">
+                    </div>
+                    <div class="formname">
+                        Email: <input type="text" name="Email" placeholder="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="formname">
+                        <form action="post" class="dates">
+                            Date of booking: <input type="date" name="Date" value="">
+                        </form>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="formname">
+                        Enter time to start: <input type="text" name="Hours to start" placeholder="">
+                    </div>
+                    <div class="formname">
+                        Enter time to finish: <input type="text" name="Hours to finish" placeholder="">
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="formname">
+                        Type of field: <select name="Field type" class="field">
+                            <option hidden>Select</option>
+                            <option value="">Soccer</option>
+                            <option value="">Football</option>
+                            <option value="">Bedminton</option>
+                            <option value="">Hockey</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="button">
+                    <button class="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </form>
     </div>
-
-    <p class="firstPara">
-        Easy way to book your game time. Check the available time and book for
-        your favorite game.
-    </p>
-
-    <form action="" class="booking">
-        <fieldset>
-            <div class="column">
-                <div class="formname">
-                    First name: <input type="text" name="firstname" placeholder="">
-                </div>
-                <div class="formname">
-                    Last name: <input type="text" name="lastname" placeholder="">
-                </div>
-                <div class="formname">
-                    Email: <input type="text" name="email" placeholder="">
-                </div>
-            </div>
-            <div class="column">
-                <div class="formname">
-                    <form action="post" class="dates">
-                        Date of booking: <input type="date" name="date" value="">
-                    </form>
-                </div>
-            </div>
-            <div class="column">
-                <div class="formname">
-                    Enter time to start: <input type="text" name="hours" placeholder="">
-                </div>
-                <div class="formname">
-                    Enter time to finish: <input type="text" name="hours" placeholder="">
-                </div>
-            </div>
-            <div class="column">
-                <div class="formname">
-                    Type of field: <select name="field" class="field">
-                        <option hidden>Select</option>
-                        <option value="">Soccer</option>
-                        <option value="">Football</option>
-                        <option value="">Bedminton</option>
-                        <option value="">Hockey</option>
-                    </select>
-                </div>
-            </div>
-            <div class="button">
-                <button class="submit">Submit</button>
-            </div>
-
-        </fieldset>
-    </form>
     <!-- Footer starts here.-->
     <footer>
         <center class="ForBack">
@@ -152,6 +139,9 @@
                         class="fa-brands fa-square-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/rezaul-islam-23118b255/" target="_blank"><i
                         class="fa-brands fa-linkedin"></i></a>
+                <a class="link" href="https://getbootstrap.com/docs/5.0/components/navbar/"
+                    target="_blank">Bootstrap</a>
+                <a class="link" href="https://www.youtube.com/" target="_blank">YouTube</a>
             </div>
         </center>
     </footer>
